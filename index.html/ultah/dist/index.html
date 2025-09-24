@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ultah</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="container">
+    <!-- Layer 1: Pilihan -->
+    <div id="layer1">
+        <h1>Selamat Ulang Tahun!</h1>
+        <p class="message">Mau lanjut lihat ucapannya? </p>
+        <div class="button-group">
+            <button class="yes-btn" onclick="handleYes()">Iya</button>
+            <button class="no-btn" onclick="handleNo()">Tidak</button>
+        </div>
+    </div>
+    
+    <!-- Layer 2: Ucapan -->
+    <div id="layer2" class="hidden">
+        <h1>🎉 For Tarisa Ramadhani 🎂</h1>
+        <div class="birthday-gif">
+            <img src="https://media.giphy.com/media/3o7abGQa0aRJUurpII/giphy.gif" alt="Kue ulang tahun dengan lilin menyala">
+        </div>
+        <p class="message">
+           tadi keinget hari ini kamu ulang tahun ya, jadi iseng aja sa tadi buat ini semoga jadi lebih happy.<br>
+          
+          sugeng ambal warsa tarisa, semoga panjang umur, langkahmu lancar, selalu di beri kemudahan, dan semoga bisa selalu mensyukuri dan tersenyum apapun yang terjadi. lancar lancar sa kuliah nya dan jangan lupa semangat, OKEE?!!
+  <br><br>
+            🎈 MENUA ITU PASTI, DEWASA ITU OPSIONAL🎈
+        </p>
+        <button class="yes-btn" onclick="resetApp()">Kembali ke Awal</button>
+    </div>
+</div>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
